@@ -31,7 +31,7 @@ export class ChatComponent {
   public sendMessage(e: SendMessageEvent): void {
     const echo: Message = {
       author: this.bot,
-      text: `You said: ${e.message.text}`
+      text: `You said: ${e.message.text}`,
     };
 
     setTimeout(
